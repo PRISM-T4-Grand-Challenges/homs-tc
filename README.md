@@ -95,6 +95,32 @@ Troubleshooting
 1. Make sure to add the proper [SM](https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/) of your GPU in Makefile [\[LINK\]](https://github.com/tycheyoung/homs-tc/blob/main/Makefile#L236).
 By default, `sm_89` and `sm_86` is enabled.
 
+
+Benchmark Tools
+----------------------
+
+- SpectraST running on CPU
+- ANN-SoLo running on both CPU and GPU
+
+Datasets
+----------------------
+
+Two real-world datasets were used for evaluation:
+
+#### Small-Scale Dataset
+- **Reference Libraries**: Yeast spectral library combined with human HCD spectral library (Total spectra: 1,162,392)
+- **Query**: iPRG2012 dataset (Total spectra: 15,867)
+
+#### Large-Scale Dataset
+- **Reference Libraries**: Human spectral library (Total spectra: 2,992,672)
+- **Query**: HEK293 dataset (b1906∼b1938) (Total spectra per query: ~46,665)
+
+
+Publication
+------------------------------------------------------
+Kang J, Xu W, Bittremieux W, Moshiri N, Rosing T. Accelerating open modification spectral library searching on tensor core in high-dimensional space. Bioinformatics. 2023 Jul 1;39(7):btad404. doi: 10.1093/bioinformatics/btad404. PMID: 37369033; PMCID: PMC10323168.
+
+
 Contact
 ------------------------------------------------------
 
