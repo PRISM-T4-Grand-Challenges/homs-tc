@@ -108,7 +108,7 @@ Datasets
 Two real-world datasets were used for evaluation:
 
 #### Small-Scale Dataset
-- **Reference Libraries**: [Yeast spectral library](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4349991/) combined with [human HCD spectral library](https://www.sciencedirect.com/science/article/pii/S2405471218303193) (Total spectra: 1,162,392)
+- **Reference Libraries**: [Yeast spectral library](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4349991/) combined with human HCD spectral library (Total spectra: 1,162,392)
 - **Query**: [iPRG2012 dataset](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3879627/) (Total spectra: 15,867)
 
 #### Large-Scale Dataset
