@@ -99,8 +99,8 @@ By default, `sm_89` and `sm_86` is enabled.
 Benchmark Tools
 ----------------------
 
-- SpectraST running on CPU
-- ANN-SoLo running on both CPU and GPU
+- [SpectraST](https://pubmed.ncbi.nlm.nih.gov/17295354/) running on CPU
+- [ANN-SoLo](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00359) running on both CPU and GPU
 
 Datasets
 ----------------------
@@ -108,12 +108,13 @@ Datasets
 Two real-world datasets were used for evaluation:
 
 #### Small-Scale Dataset
-- **Reference Libraries**: Yeast spectral library combined with human HCD spectral library (Total spectra: 1,162,392)
-- **Query**: iPRG2012 dataset (Total spectra: 15,867)
+- **Reference Libraries**: [Yeast spectral library](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4349991/) combined with [human HCD spectral library](https://www.sciencedirect.com/science/article/pii/S2405471218303193) (Total spectra: 1,162,392)
+- **Query**: [iPRG2012 dataset](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3879627/) (Total spectra: 15,867)
 
 #### Large-Scale Dataset
-- **Reference Libraries**: Human spectral library (Total spectra: 2,992,672)
-- **Query**: HEK293 dataset (b1906∼b1938) (Total spectra per query: ~46,665)
+- **Reference Libraries**: [Human spectral library](https://www.sciencedirect.com/science/article/pii/S2405471218303193) (Total spectra: 2,992,672)
+- **Query**: [HEK293 dataset (b1906∼b1938)](https://pubmed.ncbi.nlm.nih.gov/26076430/) (Total spectra per query: ~46,665)
+
 
 
 Publication
